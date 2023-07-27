@@ -10,10 +10,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1920px;
+  min-width: 1920px;
   height: 100px;
   background-color: #141024;
   .header-title {
+    cursor: pointer;
+
     color: #ffffff;
     font-style: Jost;
     font-weight: 700;
@@ -23,6 +25,8 @@
       display: flex;
       column-gap: 20px;
       .header-menu__item {
+        cursor: pointer;
+
         color: #ffffff;
         font-style: Jost;
         font-weight: 400;
@@ -30,6 +34,8 @@
     }
   }
   .header-phone {
+    cursor: pointer;
+
     color: #ffffff;
     font-style: Jost;
     font-weight: 600;

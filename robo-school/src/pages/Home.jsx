@@ -1,4 +1,7 @@
+import Bottom from '../components/Bottom';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Info from '../components/Info';
 import Main from '../components/Main';
 
 function Home() {
@@ -6,6 +9,9 @@ function Home() {
     <>
       <Header />
       <Main />
+      <Info />
+      <Footer />
+      <Bottom />
     </>
   );
 }
